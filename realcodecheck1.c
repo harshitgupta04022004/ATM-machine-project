@@ -105,7 +105,7 @@ struct node* newuser_details(long int ATM_number,int pin)
       top->next=new_node;
       top=new_node;
     }
-    return head;
+    return top;
 }
 
 //
