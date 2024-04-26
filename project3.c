@@ -4,15 +4,8 @@
 #include <stdbool.h>
 #include <ctype.h>
 
-//
-// float Balance(struct node** acc_address,int pin);  // peek operation in dll
-// void Deposit(struct node** acc_address,int pin,int deposit);   // add new node and get data from privious node and add the given amount to the data and store it in data of new node
-// void Withdraw(struct node** acc_address,int pin,int Withdraw);  //add new node and get data from privious node and substract the given amount to the data and store it in data of new node
-// void Last_Transactions(struct node** acc_address,int pin); // store the data the stack and the pop out the data {this function shows the property of stack in the showing the balance of perticular user}
-// void newuser_details(int ATM_number, int pin);//triply linked list havind 2 linked pd node type and 1 node of single_node type and havind two data first ATM_number and second pin
-// void newnode(struct single_node **top,int D_W);// it has two data first D_W and second is current and have  one link next to connecct privious node
-//
-//
+
+
 struct single_node
 {
   float D_W;
